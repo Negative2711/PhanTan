@@ -1,0 +1,9 @@
+- Được viết bởi Đoàn Thế Long - 19475471
+	B1: Sau khi clone code về tạo database với collection giống với trong file hibernate.cfg.xml
+	B2: Mở file ServerApp.java và file ClientApp.java sửa ip của rmi tương thích với ip của máy
+	B3: config jre thành phiên bản 1.8_202
+	B4: Start ServerApp.java trước và Start ClientApp.java
+	Ghi chú 1: nhớ add database vào
+	Ghi chú 2: đây là sản phẩm được sửa dựa trên source bán xe cũ của tôi nên sẽ còn thấy entity và nhiều getter/setter 	của sản phẩm bán xe
+- Có thể coi video theo link này để biết them chi tiết về sản phẩm:
+	https://www.youtube.com/watch?v=YHFiIK70BGk
