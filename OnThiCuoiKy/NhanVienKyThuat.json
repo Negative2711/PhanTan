@@ -1,0 +1,41 @@
+[
+    {
+        "_id": "NV6",
+        "taiKhoan": {
+            "loaiTaiKhoan": "Nhân viên kỹ thuật",
+            "matKhau": "1111"
+        },
+        "tenNV": "nguyen van nam",
+        "bacTho": "1",
+        "diaChiNV": "234 hl2",
+        "chucVu": "nhan vien",
+        "soDienThoaiNV": "0903124567",
+        "soNamKN": 3
+    },
+    {
+        "_id": "NV7",
+        "taiKhoan": {
+            "loaiTaiKhoan": "Nhân viên kỹ thuật",
+            "matKhau": "1111"
+        },
+        "tenNV": "truong cong thanh",
+        "bacTho": "1",
+        "diaChiNV": "639 HL2 P.btd Q.Bt",
+        "chucVu": "pho phong ban",
+        "soDienThoaiNV": "0903468564",
+        "soNamKN": 5
+    },
+    {
+        "_id": "NV8",
+        "taiKhoan": {
+            "loaiTaiKhoan": "Nhân viên kỹ thuật",
+            "matKhau": "1111"
+        },
+        "tenNV": "truong my ngoc",
+        "bacTho": "3",
+        "diaChiNV": " 124 tran van quyet",
+        "chucVu": "nhan vien",
+        "soDienThoaiNV": "0902634567",
+        "soNamKN": 2
+    }
+]
