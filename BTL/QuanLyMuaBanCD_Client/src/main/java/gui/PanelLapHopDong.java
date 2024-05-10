@@ -203,7 +203,7 @@ public class PanelLapHopDong extends JPanel {
 		lblNgayTao.setBounds(327, 66, 139, 22);
 		panelHoaDon.add(lblNgayTao);
 
-		JLabel lblSoHopDong = new JLabel("Số hợp đồng:");
+		JLabel lblSoHopDong = new JLabel("Số Hóa đơn:");
 		lblSoHopDong.setHorizontalAlignment(SwingConstants.RIGHT);
 		lblSoHopDong.setFont(new Font("Tahoma", Font.PLAIN, 17));
 		lblSoHopDong.setBounds(330, 33, 136, 22);
@@ -360,7 +360,7 @@ public class PanelLapHopDong extends JPanel {
 		
 		panelHoaDon.add(txtMaNV);
 
-		JButton btnLapHDMoi = new JButton("Lập hợp đồng");
+		JButton btnLapHDMoi = new JButton("Lập Hóa đơn");
 		btnLapHDMoi.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try {
@@ -377,13 +377,13 @@ public class PanelLapHopDong extends JPanel {
 							txtTongCong.setText(dcf.format(hopDong.getTienPhaiTra()));
 							txtTienThua.setText(dcf.format(hopDong.getTienThua()));
 							if (hopDongFacade.themHopDong(hopDong)) {
-								lblMessHopDong.setText("Thêm hợp đồng thành công");
+								lblMessHopDong.setText("Thêm Hóa đơn thành công");
 								for (Xe xe : dsXe) {
 									xeFacade.capNhatXe(xe);
 								}
 							}
 						} else {
-							lblMessHopDong.setText("Vui lòng thêm xe vào hợp đồng");
+							lblMessHopDong.setText("Vui lòng thêm xe vào Hóa đơn");
 						}
 					}
 				} catch (RemoteException e1) {
@@ -782,7 +782,7 @@ public class PanelLapHopDong extends JPanel {
 		lblSoLuongXeDaThem.setBounds(327, 233, 76, 24);
 		panelHoaDon.add(lblSoLuongXeDaThem);
 		
-		JButton btnThmHpng = new JButton("Thêm hợp đồng mới");
+		JButton btnThmHpng = new JButton("Thêm hóa đơn mới");
 		btnThmHpng.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				try {

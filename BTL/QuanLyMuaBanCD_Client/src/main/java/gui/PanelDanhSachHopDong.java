@@ -177,7 +177,7 @@ public class PanelDanhSachHopDong extends JPanel {
 		JScrollPane scrollPaneHD = new JScrollPane();
 		scrollPaneHD.setBounds(0, 392, 603, 280);
 		pnlDanhSachSanPham.add(scrollPaneHD);
-		String[] headers = { "Mã hợp đồng", "Ngày lập", "Mã nhân viên", "Mã khách hàng", "Bảo hành", "Tổng thành tiền",
+		String[] headers = { "Mã Hóa đơn", "Ngày lập", "Mã nhân viên", "Mã khách hàng", "Bảo hành", "Tổng thành tiền",
 				"Tiền phải trả", "Tiền thừa", "Tình trạng" };
 		modelHD = new DefaultTableModel(headers, 0);
 		tableHD = new JTable(modelHD);
@@ -276,11 +276,11 @@ public class PanelDanhSachHopDong extends JPanel {
 		txtTimHoaDon = new JTextField();
 		txtTimHoaDon.setForeground(new Color(128, 128, 128));
 		txtTimHoaDon.setSelectionColor(new Color(0, 0, 0));
-		txtTimHoaDon.setText("Tìm theo mã hợp đồng, mã nhân viên, mã khách hàng");
+		txtTimHoaDon.setText("Tìm theo mã Hóa đơn, mã nhân viên, mã khách hàng");
 		txtTimHoaDon.addFocusListener(new FocusAdapter() {
 			@Override
 			public void focusGained(FocusEvent e) {
-				if (txtTimHoaDon.getText().equals("Tìm theo mã hợp đồng, mã nhân viên, mã khách hàng")) {
+				if (txtTimHoaDon.getText().equals("Tìm theo mã Hóa đơn, mã nhân viên, mã khách hàng")) {
 					txtTimHoaDon.setText("");
 				} else {
 					txtTimHoaDon.selectAll();
@@ -290,7 +290,7 @@ public class PanelDanhSachHopDong extends JPanel {
 			@Override
 			public void focusLost(FocusEvent e) {
 				if (txtTimHoaDon.getText().equals("")) {
-					txtTimHoaDon.setText("Tìm theo mã hợp đồng, mã nhân viên, mã khách hàng");
+					txtTimHoaDon.setText("Tìm theo mã Hóa đơn, mã nhân viên, mã khách hàng");
 				}
 			}
 		});
@@ -628,7 +628,7 @@ public class PanelDanhSachHopDong extends JPanel {
 							boolean chuaCo = true;
 							for (ChiTietHopDong chiTiet : dsCTHD) {
 								if (chiTiet.getXe().getMaXe().equals(maXe)) {
-									lblMessCTHD.setText("Xe đã có trong hợp đồng");
+									lblMessCTHD.setText("Xe đã có trong Hóa đơn");
 									chuaCo = false;
 								}
 							}

@@ -484,49 +484,49 @@ public class PanelXe extends JPanel {
 
 	public boolean valid() {
 		if (txtTenXeMay.getText().trim().equals("")) {
-			lblMess.setText("Tên xe không được trống");
+			lblMess.setText("Tên đĩa không được trống");
 			txtTenXeMay.requestFocus();
 			return false;
 		}
 		if (txtHangXe.getText().trim().equals("")) {
-			lblMess.setText("Hãng xe không được trống");
+			lblMess.setText("Hãng đĩa không được trống");
 			txtHangXe.requestFocus();
 			return false;
 		}
 		if (txtLoaiXe.getText().trim().equals("")) {
-			lblMess.setText("Loại xe không được trống");
+			lblMess.setText("Mô tả đĩa không được trống");
 			txtLoaiXe.requestFocus();
 			return false;
 		}
 		if (txtMauXe.getText().trim().equals("")) {
-			lblMess.setText("Màu xe không được trống");
+			lblMess.setText("Màu đĩa không được trống");
 			txtMauXe.requestFocus();
 			return false;
 		}
 		if (txtNuocSX.getText().trim().equals("")) {
-			lblMess.setText("Nước sản xuất không được trống");
+			lblMess.setText("Thể loại đĩa không được trống");
 			txtNuocSX.requestFocus();
 			return false;
 		}
 		if (txtSoKhung.getText().trim().equals("")) {
-			lblMess.setText("Số khung không được trống");
+			lblMess.setText("Số dung lượng không được trống");
 			txtSoKhung.requestFocus();
 			return false;
 		}
 		if (txtSoSuon.getText().trim().equals("")) {
-			lblMess.setText("Số sườn không được trống");
+			lblMess.setText("Loại đĩa không được trống");
 			txtSoSuon.requestFocus();
 			return false;
 		}
 		try {
 			int soPK = Integer.parseInt(txtSoPK.getText().trim());
 			if (soPK <= 0) {
-				lblMess.setText("Số phân khối phải > 0");
+				lblMess.setText("Số lô > 0");
 				txtSoPK.requestFocus();
 				return false;
 			}
 		} catch (Exception e) {
-			lblMess.setText("Sai định dạng số phân khối");
+			lblMess.setText("Sai định dạng số lô");
 			txtSoPK.requestFocus();
 			return false;
 		}

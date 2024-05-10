@@ -39,5 +39,6 @@
 	<classpathentry kind="lib" path="lib/jcalendar-1.4.jar"/>
 	<classpathentry kind="lib" path="lib/jgoodies-common-1.2.0.jar"/>
 	<classpathentry kind="lib" path="lib/client.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/QuanLyMuaBanCD_Server"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

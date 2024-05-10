@@ -32,7 +32,7 @@ import gui.FrmLogin;
 public class ClientApp {
 
 	public static void main(String[] args) {
-		String a = "rmi://192.168.1.17:4491";
+		String a = "rmi://192.168.2.9:4491";
 		SecurityManager securityManager = System.getSecurityManager();
 		if (securityManager == null) {
 			System.setProperty("java.security.policy", "policy/policy.policy");
@@ -51,14 +51,14 @@ public class ClientApp {
 			EventQueue.invokeLater(new Runnable() {
 				public void run() {
 					try {
-						NhanVienHanhChanh nvhc = new NhanVienHanhChanh("1");
-						nvhc.setTaiKhoan(new TaiKhoan("2", "Quản lý"));
-						nhanVienHanhChanhFacade.xoaNhanVienHanhChanh("1");
-						nhanVienHanhChanhFacade.themNhanVienHanhChanh(nvhc);
-						NhanVienKyThuat nvkt = new NhanVienKyThuat("2");
-						nvkt.setTaiKhoan(new TaiKhoan("2", "Quản lý"));
-						nhanVienKythuatFacade.xoaNhanVienKyThuat("2");
-						nhanVienKythuatFacade.themNhanVienKyThuat(nvkt);
+//						NhanVienHanhChanh nvhc = new NhanVienHanhChanh("1");
+//						nvhc.setTaiKhoan(new TaiKhoan("2", "Quản lý"));
+//						nhanVienHanhChanhFacade.xoaNhanVienHanhChanh("1");
+//						nhanVienHanhChanhFacade.themNhanVienHanhChanh(nvhc);
+//						NhanVienKyThuat nvkt = new NhanVienKyThuat("2");
+//						nvkt.setTaiKhoan(new TaiKhoan("2", "Quản lý"));
+//						nhanVienKythuatFacade.xoaNhanVienKyThuat("2");
+//						nhanVienKythuatFacade.themNhanVienKyThuat(nvkt);
 //						Xe x = new Xe("1");
 //						xeFacade.xoaXe("1");
 //						xeFacade.themXe(x);
