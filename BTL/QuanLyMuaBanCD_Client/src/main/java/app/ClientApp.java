@@ -32,7 +32,7 @@ import gui.FrmLogin;
 public class ClientApp {
 
 	public static void main(String[] args) {
-		String a = "rmi://192.168.2.9:4491";
+		String a = "rmi://192.168.1.6:4491";
 		SecurityManager securityManager = System.getSecurityManager();
 		if (securityManager == null) {
 			System.setProperty("java.security.policy", "policy/policy.policy");

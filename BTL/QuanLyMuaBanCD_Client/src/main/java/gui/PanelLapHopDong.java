@@ -383,7 +383,7 @@ public class PanelLapHopDong extends JPanel {
 								}
 							}
 						} else {
-							lblMessHopDong.setText("Vui lòng thêm xe vào Hóa đơn");
+							lblMessHopDong.setText("Vui lòng thêm đĩa đơn");
 						}
 					}
 				} catch (RemoteException e1) {
