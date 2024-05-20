@@ -1,4 +1,4 @@
-
+use musicdb
 Insert into artists (artist_id, name, birth_date, url) values ('ADE', 'Adele', '1988-05-05', 'https://www.adele.com/');
 Insert into artists (artist_id, name, birth_date, url) values ('DOR', 'Doroteo Arnaiz', '1997-08-15', 'https://www.facebook.com/doroteoarnaiz');
 Insert into artists (artist_id, name, birth_date, url) values ('BIL', 'Bill Arnold', '1990-01-01', 'https://www.facebook.com/billarnold');
@@ -39,7 +39,7 @@ Insert into albums (album_id, title, price, year_of_release, download_link) valu
 Insert into albums (album_id, title, price, year_of_release, download_link) values('ALB003', 'Revolver', 15.5, 1966, 'https://www.songs/revolver');
 Insert into albums (album_id, title, price, year_of_release, download_link) values('ALB004', 'Highway 61 Revisited', 12.5, 1965, 'https://www.songs/highway-61-revisited');
 Insert into albums (album_id, title, price, year_of_release, download_link) values('ALB005', 'Rubber Soul', 10.5, 1965, 'https://www.songs/rubber-soul');
-Insert into albums (album_id, title, price, year_of_release, download_link)s values('ALB006', 'What''s Going On', 11.5, 1971, 'https://www.songs/whats-going-on');
+Insert into albums (album_id, title, price, year_of_release, download_link) values('ALB006', 'What''s Going On', 11.5, 1971, 'https://www.songs/whats-going-on');
 Insert into albums (album_id, title, price, year_of_release, download_link) values('ALB007', 'Exile on Main St.', 20.5, 1972, 'https://www.songs/exile-on-main-st');
 Insert into albums (album_id, title, price, year_of_release, download_link) values('ALB008', 'London Calling', 18.5, 1979, 'https://www.songs/london-calling');
 Insert into albums (album_id, title, price, year_of_release, download_link) values('ALB009', 'Blonde on Blonde', 12.5, 1966, 'https://www.songs/blonde-on-blonde');
