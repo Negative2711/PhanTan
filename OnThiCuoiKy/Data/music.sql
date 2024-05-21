@@ -1,4 +1,4 @@
-use musicdb
+use musicdb;
 Insert into artists (artist_id, name, birth_date, url) values ('ADE', 'Adele', '1988-05-05', 'https://www.adele.com/');
 Insert into artists (artist_id, name, birth_date, url) values ('DOR', 'Doroteo Arnaiz', '1997-08-15', 'https://www.facebook.com/doroteoarnaiz');
 Insert into artists (artist_id, name, birth_date, url) values ('BIL', 'Bill Arnold', '1990-01-01', 'https://www.facebook.com/billarnold');
